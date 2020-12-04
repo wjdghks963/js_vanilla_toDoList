@@ -1,28 +1,39 @@
 body {
   background-color: silver;
-  width: 90vw;
-  height: 90vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 h1 {
   color: white;
   font-size: 100px;
-  padding-left: 750px;
-  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h4 {
   font-size: 35px;
-  padding-left: 800px;
+  justify-content: center;
+  text-align: center;
 }
 
 .js-form {
   padding-left: 800px;
 }
 
-.js-toDoList,
 .js-toDoForm {
-  padding-left: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.js-toDoList {
+  padding-left: 700px;
+}
+
+.js-toDoList span {
+  background-color: aliceblue;
 }
 
 #toDoInput {
